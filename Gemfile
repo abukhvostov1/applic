@@ -7,6 +7,7 @@ gem 'rails'
 
 gem 'sqlite3'
 # gem 'pg'
+gem 'gravatar_image_tag'
 
 group :development do
   gem 'rspec-rails'
@@ -16,6 +17,7 @@ end
 group :test do
   gem 'rspec-rails'
   gem 'webrat'
+  gem 'factory_girl_rails'
 end
 
 
